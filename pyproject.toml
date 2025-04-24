@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nonebot-plugin-wakeup-timetable"
+version = "0.1.0"
+description = "wakeup课程表"
+authors = ["floating142 <1427517719@qq.com>"]
+readme = "README.md"
+packages = [{include = "nonebot_plugin_wakeup_timetable"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.2.0"
+nonebot-plugin-apscheduler = ">=0.2.0,<1.0.0"
+nonebot-plugin-htmlrender="^0.3.0"
+nonebot-plugin-alconna = ">=0.40.1,<1.0.0"
+nonebot-plugin-orm= ">=0.7.1"
+httpx = ">=0.20.0,<1.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
