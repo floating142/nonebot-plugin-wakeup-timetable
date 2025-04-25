@@ -26,7 +26,7 @@ _✨ 基于 NoneBot2 的 wakeup 课程表插件 ✨_
 
 > [!NOTE]
 > 本项目改编自 [nonebot-plugin-ai-timetable](https://github.com/maoxig/nonebot-plugin-ai-timetable)，
-> 如果你对项目中部分代码的相似性或版权有疑问，也请随时联系我
+> 如果你对项目中部分代码的相似性有疑问，也请随时联系我
 
 ## 💿 安装
 
