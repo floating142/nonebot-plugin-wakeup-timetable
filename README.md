@@ -42,7 +42,7 @@ _✨ 基于 NoneBot2 的 wakeup 课程表插件 ✨_
   ```
   打开 nonebot2 项目根目录下的 pyproject.toml 文件, 在 [tool.nonebot] 部分追加写入
   ```bash
-  plugins = ["nonebot-plugin-wakeup-timetable"]
+  plugins = ["nonebot_plugin_wakeup_timetable"]
   ```
 
 
