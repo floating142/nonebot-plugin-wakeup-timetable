@@ -31,16 +31,11 @@ _✨ 基于 NoneBot2 的 wakeup 课程表插件 ✨_
 ## 💿 安装
 
 
-**使用 nb-cli 安装**
-  ```bash
-  nb plugin install nonebot-plugin-wakeup-timetable
-  ```
-
 **使用 pip 安装**
   ```bash
   pip install nonebot-plugin-wakeup-timetable
   ```
-  打开 nonebot2 项目根目录下的 pyproject.toml 文件, 在 [tool.nonebot] 部分追加写入
+  打开 nonebot2 项目根目录下的 pyproject.toml 文件, 在 plugins = [] 部分追加写入
   ```bash
   plugins = ["nonebot_plugin_wakeup_timetable"]
   ```
